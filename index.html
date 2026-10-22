@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 месяцев нашего счастья ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="bg-hearts" class="bg-hearts"></div>
+
+    <!-- ЭКРАН 1: Вступительный конверт -->
+    <div id="envelope-screen" class="envelope-screen">
+        <div class="envelope-wrapper" id="envelope-btn">
+            <div class="envelope" id="envelope-box">
+                <div class="envelope-flap"></div>
+                <div class="envelope-letter">
+                    <p class="letter-preview">Для самой любимой...</p>
+                </div>
+                <div class="envelope-pocket"></div>
+                <div class="heart-seal">❤️</div>
+            </div>
+            <p class="envelope-hint">Нажми на сердечко, чтобы открыть письмо ✨</p>
+        </div>
+    </div>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main id="main-content" class="main-content hidden">
+        
+        <header class="hero">
+            <div class="badge">Особенный день ✨</div>
+            <h1 class="hero-title">10 месяцев счастья с тобой</h1>
+            <p class="hero-subtitle">Каждый день рядом с тобой — это маленькое чудо, за которое я благодарен судьбе.</p>
+        </header>
+
+        <!-- Секция 1: Статистика времени -->
+        <section class="section">
+            <h2 class="section-title">Наше время в цифрах</h2>
+            <p class="section-desc">Нажми на любую карточку ✨</p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">месяцев любви</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">~304</span>
+                    <span class="stat-label">дня улыбок</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">~7 300</span>
+                    <span class="stat-label">часов нежности</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">счастья впереди</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 2: Шкала любви -->
+        <section class="section">
+            <div class="glass-card game-container">
+                <h2 class="section-title">Шкала моей любви к тебе</h2>
+                <p class="section-desc">Попробуй измерить! Кликай по кнопке ниже:</p>
+                
+                <div class="meter-wrapper">
+                    <div class="meter-bar" id="love-bar"></div>
+                    <span class="meter-text" id="love-percent">0%</span>
+                </div>
+
+                <div id="love-message" class="love-message">Нажми на кнопку, чтобы начать измерение 👇</div>
+
+                <button id="charge-btn" class="primary-btn" type="button">Наполнить любовью 💖</button>
+            </div>
+        </section>
+
+        <!-- Секция 3: 10 причин -->
+        <section class="section">
+            <h2 class="section-title">10 месяцев — 10 причин, почему я тебя люблю</h2>
+            <p class="section-desc">Переверни каждую карточку (просто нажми на неё) 👇</p>
+            <div id="reasons-grid" class="reasons-grid"></div>
+        </section>
+
+        <!-- Секция 4: Любовные купоны -->
+        <section class="section">
+            <h2 class="section-title">Твои подарочные купоны 🎟️</h2>
+            <p class="section-desc">Действительны бессрочно! Нажми, чтобы активировать:</p>
+            <div class="coupons-grid">
+                <div class="coupon-card">
+                    <div class="coupon-icon">🤗</div>
+                    <div class="coupon-info">
+                        <h3>Бесконечные объятия</h3>
+                        <p>Обниму так крепко и на столько времени, на сколько ты захочешь.</p>
+                    </div>
+                    <div class="coupon-stamp">Активировано ❤️</div>
+                </div>
+
+                <div class="coupon-card">
+                    <div class="coupon-icon">🍓</div>
+                    <div class="coupon-info">
+                        <h3>Любая вкусняшка</h3>
+                        <p>Твоя любимая еда, десерт или напиток в любое время по первому требованию.</p>
+                    </div>
+                    <div class="coupon-stamp">Активировано ❤️</div>
+                </div>
+
+                <div class="coupon-card">
+                    <div class="coupon-icon">🎬</div>
+                    <div class="coupon-info">
+                        <h3>Киновечер по твоему выбору</h3>
+                        <p>Смотрим любой фильм или сериал, который выберешь ты, под тёплым пледом.</p>
+                    </div>
+                    <div class="coupon-stamp">Активировано ❤️</div>
+                </div>
+
+                <div class="coupon-card">
+                    <div class="coupon-icon">👑</div>
+                    <div class="coupon-info">
+                        <h3>Исполнение каприза</h3>
+                        <p>Один любой твой милый каприз или желание без единого вопроса.</p>
+                    </div>
+                    <div class="coupon-stamp">Активировано ❤️</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 5: Письмо и финал -->
+        <section class="section">
+            <div class="glass-card letter-card">
+                <h2 class="letter-heading">Моей самой прекрасной девочке 💌</h2>
+                <p class="letter-body">
+                    Любимая моя, вот уже 10 месяцев, как мы вместе. За это время ты стала для меня не просто девушкой, а самым близким, родным и важным человеком.
+                </p>
+                <p class="letter-body">
+                    Спасибо тебе за каждую твою улыбку, за твою поддержку, за наши разговоры, смех и уютные моменты. Ты делаешь меня лучше и наполняешь каждый мой день особым смыслом и теплом.
+                </p>
+                <p class="letter-body">
+                    Это только первые 10 месяцев нашей большой и красивой истории. Я очень сильно тебя люблю! ❤️
+                </p>
+                <div class="letter-sign">Навсегда твой ✨</div>
+
+                <div class="kiss-section">
+                    <button id="kiss-btn" class="primary-btn kiss-btn" type="button">Отправить поцелуй 💋</button>
+                    <p id="kiss-counter" class="kiss-counter">Отправлено поцелуев: 0</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            Сделано с огромной любовью специально для тебя ❤️
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
